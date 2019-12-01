@@ -1,0 +1,21 @@
+{
+  "id": "pid_control",
+  "topics": [
+    {
+  "id": "pid_control_recv_pathplanning",
+  "topic": "pid_control_recv_pathplanning",
+  "paradigm": "sub",
+  "protocol": "ipc",
+  "address": "127.0.0.1",
+  "port": "5557"
+},
+    {
+  "id": "pid_control_send",
+  "topic": "pid_control_send",
+  "paradigm": "pub",
+  "protocol": "ipc",
+  "address": "127.0.0.1",
+  "port": "5558"
+}
+  ]
+}
